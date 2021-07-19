@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/publinfo",
+      "handler": "publinfo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/publinfo",
+      "handler": "publinfo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/publinfo",
+      "handler": "publinfo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

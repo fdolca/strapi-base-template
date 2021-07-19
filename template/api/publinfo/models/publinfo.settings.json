@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "publinfos",
+  "info": {
+    "name": "publinfo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "fqdn": {
+      "type": "string"
+    }
+  }
+}
