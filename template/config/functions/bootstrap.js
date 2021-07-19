@@ -90,8 +90,8 @@ async function createEntry({ model, entry, files }) {
 
 async function importArticles() {
   return Promise.all(
-    articles.map((question) => {
-      return createEntry({ model: "articles", entry: question });
+    articles.map((article) => {
+      return createEntry({ model: "article", entry: article });
     })
   );
 }
